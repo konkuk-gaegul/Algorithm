@@ -11,7 +11,6 @@ def findMinIndex(ary):
 # testAry = [55, 88, 33, 77]
 testAry = [random.randint(1, 99) for _ in range(20) ]
 
-
 ## 메인
 print(testAry)
 minPos = findMinIndex(testAry)
