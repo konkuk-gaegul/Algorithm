@@ -17,3 +17,10 @@ dataAry = [ random.randint(10, 99) for _ in range(20)]
 print('정렬 전 -->', dataAry)
 dataAry = selectionSort(dataAry)
 print('정렬 후 -->', dataAry)
+
+# n   4
+# cy  0, 1, 2
+
+# i   1, 2, 3 when cy = 0
+# i   2, 3    when cy = 1
+# i   3       when cy = 2
